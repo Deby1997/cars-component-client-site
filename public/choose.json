@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "img": "https://cdn-icons-png.flaticon.com/512/1189/1189112.png?w=740",
+    "des": " Friendly Service"
+  },
+  {
+    "_id": 2,
+    "img": "https://cdn-icons-png.flaticon.com/512/898/898356.png?w=740",
+    "des": "Fast Service "
+  },
+  {
+    "_id": 3,
+    "img": "https://cdn-icons-png.flaticon.com/512/747/747192.png?w=740",
+    "des": "Guaranteed Products "
+  },
+  {
+    "_id": 4,
+    "img": "https://img.freepik.com/free-vector/everyday-service-concept_1017-30337.jpg?t=st=1653334132~exp=1653334732~hmac=8ee8018b4c6d141df1ab6ca1b2aef922155c25755f7e2461bd105509ec64b62b&w=740",
+    "des": "24/7 Services "
+  },
+  {
+    "_id": 5,
+    "img": "https://cdn-icons-png.flaticon.com/512/855/855566.png?w=740",
+    "des": "Certified Products "
+  },
+  {
+    "_id": 6,
+    "img": "https://cdn-icons-png.flaticon.com/512/85/85181.png?w=740",
+    "des": "Client Trust Us Over 15 Years "
+  }
+]

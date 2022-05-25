@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "name": "Crankshaft",
+    "price": 65,
+    "img": "https://wuling.id/wp-content/uploads/2020/09/xCrank-Shaft-1000x569.png.pagespeed.ic.wwAywTDoxB.webp",
+    "quantityavailable": 10000,
+    "quantityminimum": 200,
+    "description": "The energy of motion is converted into rotational energy by the crankshaft and subsequently moves the wheel. The crankshaft also has a function to keep the piston in motion so that it can work properly."
+  },
+  {
+    "_id": 2,
+    "name": "Piston Rod or Connecting Rod",
+    "price": 23,
+    "img": "https://wuling.id/wp-content/uploads/2020/09/xBatang-Piston-1000x569.png.pagespeed.ic.XbzFUi37am.webp",
+    "quantityavailable": 5000,
+    "quantityminimum": 175,
+    "description": "The piston rod or connecting rod has the main function to connect the crankshaft and the piston. The piston rod receives power released by the piston and converts it into rotational energy. "
+  },
+  {
+    "_id": 3,
+    "name": "Piston or Torak",
+    "price": 51,
+    "img": "https://wuling.id/wp-content/uploads/2020/09/xPiston-1000x569.png.pagespeed.ic.aQzulHuqtb.webp",
+    "quantityavailable": 16000,
+    "quantityminimum": 266,
+    "description": "The piston or Torak is the heart of the engine, which plays a direct role in the combustion process to produce power. The piston that moves up and down generates energy to all parts of the engine."
+  }
+]
