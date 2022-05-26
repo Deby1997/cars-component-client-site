@@ -2,7 +2,7 @@
 
 # Live link:
 
-## Available Scripts
+## Project Detail:
 
 In the project directory, you can run:
 
