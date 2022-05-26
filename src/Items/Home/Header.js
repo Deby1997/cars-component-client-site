@@ -1,15 +1,23 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firebase.init';
 import '../Home/Header.css';
 
 const Header = () => {
+  const [user] = useAuthState(auth);
+  const logout = () => {
+    signOut(auth);
+    // localStorage.removeItem('accessToken');
+  };
   const menueItems = <>
     <li><Link className='text-white' to="home">Home</Link></li>
     <li><Link className='text-white' to="service">Services</Link></li>
     <li><Link className='text-white' to="blogs">Blogs</Link></li>
     <li><Link className='text-white' to="portfolio">My Portfolio</Link></li>
-
-
+    {user && <li><Link className='text-white' to="dashboard">Dashboard</Link></li>}
+    <li>{user ? <button className='text-white' onClick={logout} >Sign Out</button> : <Link className='text-white' to="login">LogIn</Link>}</li>
   </>
   return (
     <div className="navbar bg-gradient-to-r from-violet-800 via-indigo-300 to-violet-500">

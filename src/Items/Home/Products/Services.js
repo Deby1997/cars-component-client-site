@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import UseProduct from '../../../hooks/UseProduct';
 import Products from './Products';
 
 
 const Services = () => {
-  const [services, setServices] = useState([]);
-  useEffect(() => {
-    fetch("product.json")
-      .then(res => res.json())
-      .then(data => setServices(data));
-  }, [])
+  const [services] = UseProduct();
+  // useEffect(() => {
+  //   fetch("product.json")
+  //     .then(res => res.json())
+  //     .then(data => setServices(data));
+  // }, [])
 
   return (
     <div className='my-10'>
