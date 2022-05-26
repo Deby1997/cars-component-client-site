@@ -4,9 +4,14 @@
 
 ## Project Detail:
 
-**Service route is protected
+* Service route is protected
 
 ### `Using Tools:`
 * React
+* React Route
+* Express
+* Mongodb
+* Firebase
+* Firebase hook
 
 
