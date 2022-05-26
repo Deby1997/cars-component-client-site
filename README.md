@@ -4,7 +4,7 @@
 
 ## Project Detail:
 
-In the project directory, you can run:
+*Service route is protected
 
 ### `npm start`
 
