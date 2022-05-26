@@ -6,6 +6,7 @@
 
 * Service route is protected
 * User should login frist
+* Sign Up for new user
 
 ### `Using Tools:`
 * React
